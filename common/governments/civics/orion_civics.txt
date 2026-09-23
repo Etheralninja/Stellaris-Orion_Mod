@@ -1,0 +1,27 @@
+orion_civic = {
+	# icon = "gfx/interface/icons/governments/civics/orion_civic.dds"
+	potential = {
+		ethics = {
+			value = ethic_gestalt_consciousness
+		}
+	}
+	possible = {
+		authority = {
+			value = authority_machine_intelligence
+		}
+	}
+	random_weight = {
+		base = 5
+	}
+	descriptor = "orion_civic_desc"
+	modifier = {
+		country_unity_produces_mult = 0.2
+		country_energy_produces_mult = 0.35
+		country_minerals_produces_mult = 0.25
+		country_research_produces_mult = 0.1
+		research_speed_mult = 0.15
+		country_alloys_produces_mult = 0.15
+		unity_from_jobs_mult = 0.2
+		unity_from_workers_mult = 0.2
+	}
+}
